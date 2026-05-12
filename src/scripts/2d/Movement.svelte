@@ -5,7 +5,7 @@
     import Slider from '../../hud/components/Slider.svelte';
     import Group from '../../hud/Group.svelte';
 
-    const maxSpeedupMultiplier = 700/50; // gathered from some testing, any higher and we get teleported back
+    const maxSpeedupMultiplier = 1500/50; // gathered from some testing, any higher and we get teleported back
 
     // this file is a hot mess, but it works
     let speedupMultiplier = 1;
